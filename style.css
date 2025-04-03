@@ -1,0 +1,200 @@
+@import url('https://fonts.googleapis.com/css2?family=Baloo+2:wght@400..800&family=Kanit:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Roboto:ital,wght@0,100..900;1,100..900&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+header{
+    width: 100%;
+    height: 95px;
+    border: 1px solid grey;
+    display: flex;
+    background-color: rgb(226, 240, 255);
+    position: relative;
+}
+
+.Header{
+    width: 53%;
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    padding-left: 20px;
+}
+
+.logo{
+    width: 50px;
+    height: 50px;
+}
+
+.head{
+    font-family: "kanit";
+    font-size: 36px;
+    position: absolute;
+    top: 13px;
+    left: 80px;
+}
+
+.tag{
+    position: absolute;
+    top: 53px;
+    left: 140px;
+}
+
+nav{
+    display: flex;
+}
+
+.category{
+    display: flex;
+    justify-content: flex-end;
+}
+
+.navigation{
+    width: 100%;
+    display: flex;
+    list-style: none;
+    align-items: center;
+    gap: 30px;
+    font-family: "Baloo 2";
+    font-weight: 500;
+}
+
+li:hover{
+    color: blue;
+    cursor: pointer;
+    font-weight: 600;
+}
+
+a{
+    text-decoration: none;
+    color: black;
+}
+
+main{
+    width: 100%;
+    height: 510px;
+    padding: 40px;
+    text-align: center;
+    font-family: "poppins";
+    border: 1px solid grey;
+}
+
+.fh2{
+    margin-bottom: 10px;
+    font-size: 40px;
+}
+
+.p2{
+    color: grey;
+    font-size: 20px;
+    margin-bottom: 10px;
+}
+
+.download{
+    width: 260px;
+    padding: 9px;
+    font-family: "poppins";
+    font-weight: bold;
+    font-size: 17px;
+    color:white;
+    border: 1px solid rgb(52, 197, 255);
+    border-radius: 5px;
+    background-color: rgb(52, 197, 255);
+}
+
+.download:hover{
+    background-color: rgb(0, 238, 0);
+    color: black;
+}
+
+.versionH{
+    display: flex;
+    align-content: center;
+    justify-content:flex-start;
+    gap: 10px;
+    padding: 20px;
+}
+
+.verHp{
+    font-size: 30px;
+    margin-top: 3px;
+    font-family: "poppins";
+}
+
+.version{
+    width: 100%;
+    height: 345px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+}
+
+.verBox{
+    width: 450px;
+    height: 300px;
+    border: 1px solid grey;
+    border-radius: 10px;
+    margin: auto;
+    padding: 15px;
+    text-align: center;
+    font-family: "kanit";
+    font-size: 18px;
+    background-color: rgb(250, 250, 250);
+}
+
+.p3{
+    color: grey;
+    font-size: 19px;
+    font-family: "Baloo 2";
+}
+
+.verD{
+    padding: 7px;
+    color: white;
+    font-family: "poppins";
+    font-weight: bold;
+    font-size: 15px;
+    border: 1px solid rgb(52, 197, 255);
+    border-radius: 5px;
+    background-color: rgb(52, 197, 255);
+    margin: 22px auto;
+}
+
+.verD:hover{
+    background-color: rgb(0, 238, 0);
+    color: black;
+}
+
+footer{
+    width: 100%;
+    height: 50px;
+    border: 1px solid grey;
+    background-color: rgb(219, 255, 219);
+}
+
+.copy{
+    width: 21%;
+    height: 50px;
+    padding-left: 20px;
+    font-family: "roboto";
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.icon{
+    width: 100%;
+    height: 50px;
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    gap: 20px;
+    padding-right: 30px;
+    margin: -50px auto;
+}
+
+footer>div>a>img:hover{
+    width: 30px;
+}
